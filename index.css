@@ -1,0 +1,121 @@
+body{
+    background-color: #F4F5F7;
+}
+
+.vertical-nav {
+    min-width: 10rem;
+    width: 10rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+#sidebar.active {
+    margin-left: -17rem;
+}
+
+#content {
+    margin-left: 10rem;
+}
+
+#content.active {
+    width: 100%;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -17rem;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #content {
+        width: 100%;
+        margin: 0;
+    }
+    #content.active {
+        margin-left: 17rem;
+        width: calc(100% - 17rem);
+    }
+}
+
+.selected {
+    background-color: #CFDEED;
+    border-left: 4px solid #39A2DB;
+}
+
+.bld{
+    color: black !important;
+}
+
+.fa{
+    font-size: 25px;
+    color: #84939B;
+}
+
+.fa-s{
+    font-size: 15px;
+}
+
+.fa-m {
+    font-size: 20px;
+}
+
+.nav-link-text{
+    font-size: 15px;
+    color: #84939B;
+}
+
+.ta-c{
+    text-align: center;
+}
+
+.top-nav {
+    height: 5rem;
+    background-color: white;
+}
+
+.container-m {
+    margin: 2%;
+}
+
+.ver-tb {
+    vertical-align: text-bottom;
+    margin-left: 3px;
+}
+
+.container-l {
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-right: 15%;
+}
+
+.input-box{
+    border: white;
+    border-radius: 12px;
+    width: 100%;
+    padding: 1% 1% 1% 2%;
+    box-shadow: 1px 1px 5px rgb(0 0 0 / 10%);
+}
+
+.upload{
+    height: 10rem;
+    width: 10rem;
+    background: white;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 67px;
+    padding-bottom: 67px;
+}
+
+.mr-t-b-2{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.logo{
+    border-bottom: 4px solid #F4F5F7;
+}
